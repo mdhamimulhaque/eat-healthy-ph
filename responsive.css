@@ -1,0 +1,100 @@
+/* @media screen and (min-width:768px) and (max-width:1199px){
+    
+}
+@media screen and (min-width:768px) and (max-width:1199px){
+    
+} */
+@media screen and (min-width: 320px) and (max-width: 576px) {
+    .flex{
+        flex-direction: column;
+    }
+
+    .top_banner,.recipie_area,.counter_area{
+        width:100%;
+        margin: 0;
+    }
+
+    .top_banner_text_area {
+        margin-top: 60px;
+        width: 100%;
+        padding: 0px 10px;
+      }
+      .banner_title {
+        font-size: 40px
+      }
+      .top_banner_img_area {
+        width: 100%;
+        margin: 60px 0;
+    } 
+     .top_banner_img_area img{
+        width: 100%;
+    }
+
+    .top_banner_text_area p {
+        font-size: 18px;
+    }
+
+    /* about */
+    .about_area{
+        margin-top: 20px;
+        padding: 0 10px;
+    }
+
+    .about_img{
+        width: 100%;
+    }
+   .about_text_area{
+    width: 100%;
+    margin-top: 90px;
+   }
+
+   .about_title{
+    font-size: 37px;
+   }
+   .about_text{
+    margin: 35px 0 85px 0;
+    width: 100%;
+   }
+   .about_text_area >button{
+    margin-bottom: 50px;
+   }
+
+   /* recipies  */
+   .recipie_title_box {
+    width: 100%;
+    text-align: left;
+    padding: 0 10px;
+}
+.recipie_card_box{
+    padding: 0 10px;
+}
+.card{
+    width: 100%;
+}
+.card_title {
+    font-size: 24px;
+}
+/* counter */
+.counter_box_area{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.counter_area {
+    margin-top: 80px;
+    padding: 30px 0px;
+  }
+.counter_box{
+    
+    width: 50%;
+    margin:10px 0 ;
+}
+.counter_box h1 {
+    font-size: 38px;
+    line-height: 64px;
+}
+/* footer */
+footer{
+    padding:0 10px;
+}
+}
